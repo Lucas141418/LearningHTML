@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/prism.css">
+    <link rel="stylesheet" href="../css/javascript.css">
+
+    <title>JAVASCRIPT</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../">HTML</a>
+
+                </li>
+                <li>  <a target="_blank" href="">JAVASCRIPT</a>
+
+                </li>
+                <li><a>NODEJS</a>
+
+                </li>
+                <li><a>JAVA</a>
+
+                </li>
+                <li><a>PYTHON</a>
+                
+                </li>
+                <li><a>REACT</a>
+
+                </li>
+
+                </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="variables">
+                <h1> <a >VARIABLES</a></h1>
+                <article id="article_variable">
+                        <h3>DECLARE A VARIABLE</h3>
+                        <p> <mark> var: </mark> 
+                        &nbsp var is used to declare variable </p>
+                    
+
+                        <h3>CONSTANTS </h3>
+                        <mark> const </mark> 
+                        &nbsp A constant variable cannot be reassigned
+                            
+
+                        <h3> LET</h3>
+                        <mark> let </mark>
+                        &nbsp a let variable cannot be redeclered, the best practice is use this instead of var
+
+                        <h3> stringTemplate</h3>
+                        <mark> let stringTemplate = `${variable1} ${variable2}`</mark>
+                        <p> Inyecta los valores de las variables</p>
+
+                        <h2 id="semiTitles">basic operatos</h2>
+                        <table>
+                                <thead>
+                                    <th>operators</th>
+                                    <th>USED</th>
+                                    <th>SINTAX</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="operator"> +=</td>
+                                        <td> Increases the value  of a variable by X</td>
+                                        <td>Record+=10</td>
+                                    </tr>
+                                    <tr>
+                                        <td  class="operator"> -=</td>
+                                        <td>Decreases the value of a variable by X</td>
+                                        <td>Record-=10</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td class="operator">*= </td>
+                                        <td>multiply the value of a variable by X</td>
+                                        <td>Record*=10</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="operator">/= </td>
+                                        <td>Divide the value of a variable by X</td>
+                                        <td>Record/=10</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="operator">++ </td>
+                                        <td>Increases the value of a variable by 1</td>
+                                        <td>Record++</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="operator">-- </td>
+                                        <td>Decreases the value of a variable by 1</td>
+                                        <td>Record--</td>
+                                    </tr>
+                                </tbody>
+                        </table>
+
+                            <h2 id="semiTitles"> comparison operators</h2>
+                            <table>
+                                <thead>
+                                    <th>comparison operators</th>
+                                    <th>USED</th>
+                                    <th>SINTAX</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><mark> ==</mark></td>
+                                        <td> equal to</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><mark> ==</mark></td>
+                                        <td>equal to</td>
+                                        <td></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td><mark>!= </mark></td>
+                                        <td>not equal</td>
+                                        <td>Record*=10</td>
+                                    </tr>
+                                    <tr>
+                                        <td><mark>> </mark></td>
+                                        <td>greater than</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><mark>< </mark></td>
+                                        <td>less than</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><mark>>= </mark></td>
+                                        <td>	greater than or equal to</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><mark><= </mark></td>
+                                        <td>less than or equal to</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><mark>?</mark></td>
+                                        <td>ternary operator</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><mark>=== </mark></td>
+                                        <td>equal value and equal type</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><mark>!=== </mark></td>
+                                        <td>	not equal value or not equal type</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr> <td></td>
+                                        <td><h3 class="operator">Logical operatos</h3></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><mark>&&</mark></td>
+                                        <td>"and" logic</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td> <mark>|&nbsp|</mark></td>
+                                        <td> 'Or' logic</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><mark>!</mark></td>
+                                        <td>logica not</td>
+                                        <td></td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                    
+                </article>
+            </div>
+
+
+        </section>
+
+        <section class="strings">
+            <h1> <a class="ref_strings">String Methods</a></h1>
+                            
+            <table>
+                <thead>
+                    <th>COMAND</th>
+                    <th>USE</th>
+                </thead>
+                <tbo
+                    <tr>
+                        <td> <mark>.concat()</mark></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>.startsWith()</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>.endsWith()</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>includes()</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>indexOf()</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>lastIndexOf()</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td> <mark>.toLowerCase()</mark></td>
+                        <td></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><mark>.toUpperCase()</mark></td>
+                        
+                    </
+                    <tr>
+                        <td><mark>.tofixed(number)</mark></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><mark>window.onload</mark></td>
+                        <td>Give priority to load the mark</td>
+                    </tr>
+                    
+                    <tr>
+                        <td> <mark>  </mark></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+                           
+                        
+                   
+        </section>
+
+        <section class="arrays">
+            <h1> <a name="tags" id="selectors"> Arrays </a> </h1>
+                <p>Can hold more than one value</p> <br>
+                <p> way to declare a array</p> <br>
+                    
+                    <span id="javascript_mark">
+                        <p>var articles=["shoes", "jeans", "shirt"] </p> 
+                        <p>var articles=new Array("shoes", "jeans", "shirt") </p>
+                </span> 
+
+                <table>
+                    <thead>
+                        <th>important properties and methods</th>
+                        <th>USED</th>
+                        <th>SINTAX</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><mark>.length</mark></td>
+                            <td>Nos dice cuantos elementos hay dentro de una array </td>
+                            <td>articles.lenght; <br> articles[articles.length -1] ()To see the last item</td>
+                        </tr>
+                        <tr>
+                            <td><mark>.push()</mark></td>
+                            <td>Para agregar elementos</td>
+                            <td>articles.push("ball",);</td>
+                        </tr>
+                        <tr>
+                            <td><mark>.unshift()</mark></td>
+                            <td>Agrega los elementos al inicio</td>
+                            <td>articles.unshift("ball",)</td>
+                        </tr>
+                        <tr>
+                            <td><mark>.pop()</mark></td>
+                            <td>eliminar elementos al final </td>
+                            <td>articles.pop</td>
+                        </tr>
+                        <tr>
+                            <td><mark>.shift()</mark></td>
+                            <td>elimina elemetos al inicio</td>
+                            <td>articles.shift();</td>
+                        </tr>
+                        <tr>
+                            <td><mark>.toString()</mark></td>
+                            <td> converts an array to a string of (comma separated) array values.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><mark>.toJoin()</mark></td>
+                            <td> The join() method also joins all array elements into a string. It behaves just like toString(), but in addition you can specify the separator</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><mark>.join()</mark></td>
+                            <td> </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><mark>.concat()</mark></td>
+                            <td>method creates a new array by merging (concatenating) existing arrays:</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><mark></mark></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                        <h3>Method .forEach()</h3>
+                        <tr>
+                            <td><mark>.forEach()</mark></td>
+                            <td>ejecuta por cada elemento del arreglo</td>
+                            <td></td>
+                        </tr>
+
+                        <h3>Method map</h3>
+                        <tr>
+                            <td><mark>.map()</mark></td>
+                            <td>Crear un arreglo nuevo sobre uno existente (sirve para devolver)</td>
+                            <td></td>
+                        </tr>
+
+                        <h3>Method filter</h3>
+                        <tr>
+                            <td><mark>.filter()</mark></td>
+                            <td>Devuelve aquellos elementos que sean true</td>
+                            <td></td>
+                        </tr>
+                        <h2>Arreglar esta parte con la de POO con el codigo que el profe suba</h2>
+                        <h3>Method find</h3>
+                        <tr>
+                            <td><mark>.find()</mark></td>
+                            <td>Devuelve solo el primer elemento que de true</td>
+                            <td></td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+
+
+            <!-- <div>
+                <h2>Attributes</h2>
+                
+            </div> -->
+        </section>
+
+        <section id="sect_flows">
+                <h1> <a >conditionals and bucles</a></h1>
+                <h3 id="semiTitles">conditional if</h3>
+                <p> <mark> if (condition) { <br>  mark to execute if  condition is true } </mark> </p>
+                
+                <p><mark>else if {}</mark></p>
+                
+                
+                <p><mark> else{ }</mark></p
+                <h4>ternary operators</h4>
+                
+                <p>ternary operators are compact ways to write conditionals statements</p
+                <p style="background-color: rgb(116, 103, 103);"> condition <mark>?</mark>  expresion1 <mark>:</mark> expresion2</p>
+                <ul>
+                    <li> "Condition": Is a boolean expresion</li>
+                    <li>if the condition is true, the value of expresion1 is returned (It is the if conditional)</li>
+                    <li>If the condition is false, the value of expresion2 is returned (It is the else conditional)</li>
+                </ul>
+            
+            
+                <h3 style="text-transform: uppercase;"> loops</h3>
+                
+                <h4>For</h4
+                <p><mark> for(start;condition;increase/decrease){<br> mark to repeat while the loop condition is true}</mark></p
+                <p> Ex: for(var i=0(initiation);i< 10 (condition);i++(increse/decrease of the bucle) { <br
+                }  </p
+                <p><mark> for (variable in array ){}</mark></p>
+                <p>Is used for arrays retunrs the position of the arrays </p
+                <p><mark> for (variable of array){}</mark></p>
+                <p>This type of for retunrs the value of the array </p
+                <h4>While and do While</h4>
+                <p><mark> while{ condition}{ <br> mark to execute if the loop condition is true} </mark></p
+                <p> <mark>do{ <br> mark to execute if the loop condition is true <br>}while(condition);(execute at least one time the mark inside of the loop) </mark></p
+                <h3 style="text-transform: uppercase;">Switch</h3>
+                <p> <mark> switch (value) {  <br> &nbsp case 0: <br> &nbsp case 1:  <br> &nbsp ....  </mark> </p>
+                
+                
+            
+        </section>
+
+        <section id="sect_functions">
+            <h1> <a >Functions</a></h1>
+            <article id="article_functions">
+                    
+                    
+            <p> <code> function name_function(parameters){ <br> code to execute for the function } </code></
+            <p> <code> const variable_name = function(parameters){}</code></
+            <p><code> const variable_name = (parameters) => {} </code> arrows Functions</p>
+            
+            
+            <p> <code> fuction_function();</code> in another point we have to call the function </p>
+        
+        
+            <!-- <h3 style="text-transform: uppercase;">Events </h3>
+            
+                <table>
+                    <thead>
+                        <th>event</th>
+                        <th>USE</th>
+                        <th>used in tags</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>onblur</td>
+                            <td>deselect item</td>
+                            <td> < button>, < input>, </td>
+                        </tr>
+                        <tr>
+                            <td>onchange</td>
+                            <td>deselect an item that it had been modified</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>onclick</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>ondblclick</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>onfocus</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>onkeydown</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>onkeypress</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>onkeyup</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>onmouseover</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>onreset</td>
+                            <td>initialize tables</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+             -->
+                
+        </section>
+        
+        <section class="poo">
+                <h1> <a class="poo">poo</a></h1>
+
+
+                <h2>Objects</h2>
+                <p> Explication: An object is a data structure that allows you to store and organize data in a flexible and dynamic way. An object is an instance of a class, which is a blueprint or template for creating objects </p>
+                <p> <code> const name_object = { </code> <br>
+                    Here is where you put the properties of the objct <br>
+                   <code> name: name_object <br>
+                    weight:
+                   }
+                }</code></p>
+                <p>Ex:
+                    <code>
+                        
+                    </code>
+                </p>
+                <p>Delete Attributes </p>
+                <p><code> delete sienna.peso;</code></p>
+
+                <h4>Iterar sobre un objeto</h4>
+                <p><code> for(const llave in sienna){ <br> 
+                            console.log(`El nombre del objecto es ${llave} y su valor es ${sienna[llave]}`)
+                </code></p>
+
+
+                <h2>Class</h2>
+                <p>Explication: a class is a template or blueprint for creating objects. It is a way to define a custom data type that can have its own properties and methods. </p>
+                <p> Class name_class{
+                    constructor(propierties)
+                    this.propierty = value; (this is for instans)
+                }
+                </p>
+
+
+                                
+                
+                <table>
+                    <thead>
+                        <th>COMAND</th>
+                        <th>USE</th>
+                    </thead>
+                    <tbody>
+                        <h3>document.</h3
+                        <tr> <h4>methods</h4></tr>
+                        <tr>
+                            <td><code>.getElementById('id') </code></td>
+                            <td></td>
+                        </tr
+                        <tr>
+                            <td> <code> querySelector() </code></td>
+                        </tr
+                        <tr>
+                            <td> <code>toLowerCase()</code></td>
+                            <td>
+                                convert all to lowercase</td>
+                        </tr
+                        <tr>
+                            <td><code>toUpperCase()</code></td>
+                            <td>convert all to uppercase</td
+                        </tr
+                        <tr>
+                            <td><code>.value;</code></td>
+                        </tr
+                        <tr>
+                            <td> <code>document.write()</code></td>
+                            <td> It is used for testing purposes</td>
+                        </tr
+                        <tr>
+                            <td><h3>functions</h3></td>
+                        </tr>
+                       
+                        <tr>
+                            <td> <code> typeof() </code></td>
+                            <td>Returns the type that is in a variable </td>
+                        </tr
+                        <tr>
+                            <td> <code> parseInt() </code></td>
+                            <td>any number inside the parentheses will be converted to an integer  </td>
+                        </tr
+                        <tr>
+                            <td><code>isNaN()</code></td>
+                            <td>Check if what is inside of the parenthesis is a number(Ask if is not a number)</td>
+                        </tr>
+                    </tbody
+                </table>
+                           
+
+        </section>
+
+
+
+    </main>
+    
+</body>
+<script src="./assets/prism.js"></script>
+
+</html>

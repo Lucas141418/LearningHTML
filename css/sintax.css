@@ -1,0 +1,109 @@
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-bottom: 2px solid blue;
+}
+header li:hover{
+    text-decoration: underline 5px rgb(13, 107, 230);
+}
+header ul li{
+    display: inline;
+}
+header li{
+    margin: 0px 2cm;
+}
+h1{
+    text-align: center;
+    background-color: rgb(95, 158, 160);
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 20px 5px 15px 40px;
+    box-shadow:#808080 5px 5px;
+    text-shadow: rgb(0, 77, 128) 5px 5px 5px;
+}
+
+h2{
+    background-color: rgb(95, 158, 160);
+    width: 240px;
+    padding-left: 25px;
+    border-radius: 20px 5px 15px 40px;
+    box-shadow:#808080 5px 5px;
+    text-shadow: #131a57 3px 3px 5px;
+
+
+}
+h1, h2{
+    margin-left: 40px;
+}
+span{
+    color: rgb(226, 80, 43);
+}
+a{
+    font-weight: bold;
+    color: rgb(255, 10, 10)
+    
+}
+table{ 
+    border-style: groove; 
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 2pc;
+
+} 
+th{
+    border-bottom-style: double;
+    background-color: rgb(15, 40, 187);
+    color: aliceblue;
+}
+td{
+    border-bottom-style: double ;
+}
+tr:nth-child(even){   /*allows to do the zebra efects in tables */
+    background-color: rgb(155, 218, 247);
+}
+img{
+    float: right; width: 10cm; height: 5cm;
+}
+.list{
+    margin: 1px 1cm ;
+}
+#note{
+    background-color: gray;
+    border: 3px solid brown;
+    font-size: 15px;
+    float: right;
+    margin: 1cm 1cm; 
+}
+#CSS{
+    text-decoration: underline wavy;
+}
+.hovers{
+    transition: all 300ms ease;
+    text-shadow: black 3px 3px 5px;
+    background-color: rgb(6, 119, 76);
+    color: black;
+    border-radius: 25px;
+    margin: 14px ;
+    padding: 17px;
+    float: right;
+    border: 5px solid rgb(160, 15, 15)    
+    }
+#hover1:hover{
+    box-shadow: gray 5px 5px 5px;
+    transform: translate(1px, 50px);
+}
+#hover2:hover{
+    box-shadow: gray 5px 5px 5px;
+    transform: rotate(40deg)
+}
+#hover3:hover{
+    box-shadow: gray 5px 5px 5px;
+    transform: rotate(150deg)
+}
+#imgCenfotec{
+    border: 2px solid black;
+    float: none;
+    background-color: gray;
+    
+}
+

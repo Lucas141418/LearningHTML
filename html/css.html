@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title> CSS</title>
+</head>
+<body>
+    <header>
+        <div class=header_superior>
+            
+            <div class="logo">
+                <figure>
+                    <img src="../Imagenes/Logo-Ucenfotec-250-105-.png" alt="Logo Cenfotec">
+                </figure>
+            </div>
+            
+            <div class="search">
+                <form action="search">
+                    <input type="search" placeholder="What you wish to know?">
+                </form>
+            </div>
+        </div>
+
+
+        <div class="container_menu">
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="../HTLMCENFO/sintaxV2.html">HTML</a>
+                            <ul>
+                                <li><a href="#section_esctructure">ESTRUCTURE</a></li>
+                                <li><a href="#section_tags">TAGS</a></li>
+                                <li><a href="#media">MEDIA</a></li>
+                                <li><a href="#forms">FORMS</a></li>
+                                <li><a href="#table">TABLES</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">CSS</a>
+                            <ul>
+                                <li><a href="#">CODES</a></li>
+                                <li><a href="#">selectors</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../HTLMCENFO/javascript.html">JAVASCRIPT</a>
+                            <ul>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">3</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+
+    <main>
+
+        <section class="displays">
+            <div>
+                <h1> <a class="displays">displays </a></h1>
+                <article>
+                    <p>Set display types internal and external of an element</p>
+                    <div>
+                        <table>
+                            <thead>
+                                <th> Display:flex;</th>
+                                <th> description</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>   
+                                        <ul>
+                                            <li> flex-direction: </li>
+                                            <li> flex-wrap: </li>
+                                            <li> flex-shrink</li>
+                                            <li> flex-grow</li>
+                                            <li> flex-flow</li>
+                                            <li> align-self</li>
+                                            <li> justify-content</li>
+                                            <li> align-content</li>
+                                        </ul>
+                                    </td>
+
+                                    <td>
+                                        <ul>
+                                            <li>defining the direction flex items are placed in the flex container</li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li>This allows the default alignment (or the one specified by align-items) to be overridden for individual flex items.</li>
+                                            <li>It helps distribute extra free space leftover</li>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    
+                </article>
+            </div>
+        </section>
+
+    
+        <section class="font">
+            <div>
+                <h1> <a class="font">Text </a></h1>
+                <article>
+                    <ol>
+                        <div>
+                            <h3>styles over text</h3>
+                            <li>  text-aling
+                            </li>
+                            <li>  text-transform
+                            </li>
+                            <li>text-indent</li>
+                            <li>text-decoration</li>
+                            <li>letter-spacing</li>
+                            <li>word-spacing</li>
+                            <li>line-hegiht</li>
+                            <li>text-shadow</li>
+                        </div>
+
+                        <div>
+                            <h3>Head Elements and metadatos</h3>
+                            <li> <code>< head> < /head ></code> 
+                            &nbsp The information inside this is going to be the stylesheet, external javascript and internals, icons and the tittle.
+                            </li>
+                            <li> <code>< meta charset=" "/></code> 
+                            &nbsp With this meta tag you would be able to specify how is going to be present the tex of the web, what type of characters
+                            </li>
+                            <li> <code> < meta name="description" content=":Page of learning html 5"/ ></code>  or  <code>< meta name="keywords" content="JAVA, CENFOTEC"</code>
+                            &nbsp with this you can give a description of the page for be able to categorize the page
+                            </li>
+                            <li> <code> < meta name="viewport" content="width=device-width, initial-scale=1.0" /> </code>
+                            &nbsp  <code>"width=device-width"</code> with this one indicates that the area visible is going to be the size of the device, and with <code>"initial-scale=1.0" </code>
+                            </li>
+                        </div>
+
+                        <li> <code> < title>  < /title > </code>
+                        &nbsp the title of your tab
+                        </li>
+                        <li> <code> < link rel="stylesheet" href="hojaestilos.css" /> </code>
+                        &nbsp "rel" inform what type of  style sheet we are adding, and "href=" the path of this stylesheet(CSS) 
+                        </li>
+                    </ol>
+                </article>
+            </div>
+        </section>
+
+        
+
+
+        <section class="float">
+            <h1> <a class="float"> float </a> </h1>    
+            
+            <!-- <div class="div">
+
+                <div id="media_video">
+                    <h2>Video</h2> 
+                    <ul>
+                        <li> <code> < video  width="" hegiht="" src="" controls autoplay/loop muted poster=""> </code> <br> <br> <code> < source src="" type="" > </code> <br><br> <code> < /video> </code>
+                        <br> With 'controls' adds video controls, like play, pause, and volume <br> with autoplay <br> with poster Allows you to put a thumbnail on the video</td>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="media_audio">
+                    <h2>Audio</h2>
+
+                    <code> < audio src="" controls>< /audio> </code>
+
+                </div>
+                
+                
+            </div> -->
+        </section>
+
+
+
+
+        <section class="selectors">
+            <div class="selectors">
+                <h1> <a name="tags" id="selectors"> Selectors </a> </h1>
+                <ul>
+                    <li> <code> id=" "</code>
+                    #
+                    </li>
+               
+                    <li><code>class=""</code>
+                    .   
+                    </li> 
+
+                
+                
+                    <!-- <li> <code>< span> < /span></code>
+                    </li> 
+                
+                
+                    <li><code>< blockquote> < /blockquote></code>
+                    Quotes
+                    </li>
+                
+                
+                    <li><code> < article > < /article></code> 
+                    Group similar content
+                    </li>
+                
+                
+                    <li><code>< figure>< /figure></code>
+                    Allows inserting external elements 
+                    </li>
+                
+                
+                    <li> <code>< img src="" alt="description"></code>
+                    to insert images alt=" " is to describe the image 
+                    </li>
+                
+                
+                    <li> <code>< figcaption> < /figcaption></code>
+                    add captions to images
+                    </li>
+                
+                
+                    <li><code>< h1,h2...h6> < /h1,h2...h6></code>
+                    Tittles
+                    </li>
+                
+                
+                    <li><code>< hgroup> < /hgroup></code>
+                    group tittles
+                    </li>
+                
+                    <li> <code>< mark>< /mark></code>
+                    to marks texts Ex: <mark> Hello, world!</mark>
+                    </li>
+                
+                
+                    <li><code>< em>< /em></code>
+                    indicates emphasis Ex: <em>Hello, world!</em>
+                    </li>
+                
+                
+                    <li><code> < strong> < /strong></code>
+                    mark important text Ex: <strong> Hello, world!</strong>
+                    </li>
+                
+                
+                    <li><code>< small>< /small></code>
+                    present legal text Ex: <small> Copyright</small>
+                    </li>
+                
+                
+                    <li><code>< cite></ cite></code>
+                    to quote movies.. Ex: <cite>Hello, world!</cite>
+                    </li>
+                
+                
+                    <li> <code>< address> < /address></code>
+                    contact information (Inside the footer) Ex: <address>Hello, world</address> 
+                    </li>
+                
+                
+                    <li> <code>  < ol>< /ol> </code> Ordered list <br> <code> < ul> < /ul> </code> Unordered list <br>  <code> < li>< /li> </code> list item 
+                    </li>
+                
+                
+                    <li> <code> < form> < /form> </code>
+                    to ask information to the user  
+                    </li>
+                
+                
+                    <li> <code>< label for=""> < /label></code> 
+                    The "for" is to indicate the input that is using the label, the "for" must use the input id
+                    </li>
+                
+                
+                    <li><code>< input id= " " placeholder="" type=""> < /input> </code> 
+                    The "placeholder" is a guide for the user, all input must be with id, the type is used to know what type of data is waiting
+                    </li>
+                
+                
+                    <li> <code> < button type="submit">< /button></code>
+                    By adding the "type" allows to make the submit of the information 
+                    </li>
+                
+                
+                    <li> <code>< div >< /div></code>
+                    </li>
+                
+                    <li><code> &n bsp</code>
+                    Creates a horizontal space
+                    </li> -->
+                </ul>
+            </div>
+
+            <!-- <div>
+                <h2>Attributes</h2>
+                
+            </div> -->
+        </section>
+
+        <!-- <section class="section">
+            <div class="div">
+                <h1> <a name="table" id="table"> TABLE </a> </h1>
+                <ul>
+                    <li> <code>< thead> < /thead></code>
+                    table head
+                    </li>
+               
+                    <li><code>< tbody> < /tbody></code>
+                    table body
+                    </li> 
+
+                    <li><code> < th> < /th></code>
+                    table head
+                    </li>
+                
+                
+                    <li> <code>< td> < /td></code>
+                    Table data
+                    </li> 
+                
+                
+                    <li><code>< tr>< /tr></code>
+                    Table row
+                    </li>
+
+                    <li> <code> colspan: </code>
+                    indicates the number of columns that the cell will occupy
+                    </li>
+
+                    <li> <code>rowspan:</code>
+                    Indicates the number of rows that the cell will occupy.
+                    </li>
+                
+                </ul>
+            </div>
+        </section> -->
+
+
+
+        <section class="pseudoclasses">
+            <div>
+                <h1> <a id="pseudoclasses">pseudoclasses</a></h1>
+                <article>
+                    <ol>
+                        <div>
+                            
+                            <li> <code> :hover </code>
+                            Represents an object that interacts with the cursor, even if you do not activate it (the so-called mouse over).
+                            Ex: <span class="hovers" id="hover1"> HOVER </span> <br> <span class="hovers" id="hover2"> HOVER </span> <br> <span class="hovers" id="hover3"> HOVER </span>
+                        </li>
+                            <li> <code> ::focus</code> 
+                            Represents an item that has received focus, usually on a form
+
+                            </li>
+
+                            <!-- <li> <code>< input type=""></code>
+                            &nbsp can be displayed in many ways, depending on the type attribute for example:
+                            <ul id="ul_inputs">
+                                <li> <code> < input type="text"> </code> Ex: <input type="text"></li> <br>
+                                <li> <code>< input type="radio"> </code> <label> C++<input type="radio" ></label><label> JAVA<input type="radio"></label><label> JAVASCRIPT<input type="radio"></label> </li> <br>
+                                <li> <code>< input type="checkbox"> </code> <label>I like burgers<input type="checkbox"></label><label > I like pizza<input type="checkbox"></label><label> I like waffles<input type="checkbox"></label></li> <br>
+                                <li> <code>< input type="submit"> </code> <mark> 	Displays a submit button </mark> <input type="submit"> </li> <br>
+                                <li> <code> < select> < option> 1 < /option> < option> 2 < /option>< /select> </code> Ex: <select>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                                </li>
+                                <li> <code> < datalist> < option> Chrome< /option> < /datalist> </code> Ex: <input list="browsers" name="browser">
+                                    <datalist id="browsers">
+                                      <option value="Internet Explorer">
+                                      <option value="Firefox">
+                                      <option value="Chrome">
+                                      <option value="Opera">
+                                      <option value="Safari">
+                                    </datalist>
+                                    <input type="submit">
+                            </ul> -->
+                            <!-- </li> -->
+                        </div>
+
+                        <!-- <div>
+                            <h2>Attributes</h2>
+                            <ul>
+                                <li>Placeholder: a guide for the user</li>
+                                <li>Required: make the input obligatory</li>
+                                <li>Multiple: allows to send more than one input</li>
+                                <li>Autofocus: attribute specifies that an input field should automatically get focus when the page loads. </li>
+                                <li>Pattern: </li>
+                                <li>form</li>
+                                <li>autocomplete: Autocomplete allows the browser to predict the value</li>
+                            </ul>
+                        </div>
+
+                        <li> <code> < title>  < /title > </code>
+                        &nbsp the title of your tab
+                        </li>
+                        <li> <code> < link rel="stylesheet" href="hojaestilos.css" /> </code>
+                        &nbsp "rel" inform what type of  style sheet we are adding, and "href=" the path of this stylesheet(CSS) 
+                        </li> -->
+                    </ol>
+                </article>
+            </div>
+        </section>
+
+
+
+        
+
+
+
+
+
+
+
+
+    </main>
+
+    
+    
+    
+</body>
+</html>

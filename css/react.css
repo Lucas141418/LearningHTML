@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif !important;
+  text-decoration: none;
+}
+
+
+:root {
+  --backgroundColor: rgb(136, 133, 133, 0.3);
+  --color0: white;
+  --color1: #211c33;
+  --color2: #2b818c;
+  --color3: #ffc994;
+  --color4: #ed2860;
+  --color5:  #990069;
+  
+  
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--color1);
+}
+
+header {
+  background-color: var(--color5);
+  min-width: 100vw;
+  padding: 1px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header a{
+  color: var(--color0);
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  transition: all 200ms ease;
+
+}
+header a:hover{
+  transform: scale(1.1);
+  background: var(--color4);
+  box-shadow: 0px 0px 10px 0px gray;
+  border-radius: 10px;
+}
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section{
+  /* Size */
+  min-width: 35vw;
+  min-height: 35vh;
+
+  padding: 40px;
+  margin: 30px;
+  border-radius: 36px;
+
+  background-color: rgb(136, 133, 133);
+
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 25px;
+  width: 20vw;
+  border-radius: 5px;
+  border-bottom:  5px solid black;
+}
+mark{
+  background-color: var(--color5);
+}
+li{
+  margin: 10px;
+}
+#semiTitles{
+    text-align: center;
+    text-transform: uppercase;
+}
+table {
+    border-collapse: collapse;
+    min-width: 100%;
+  }
+
+  th {
+    background-color: var(--color0);
+    text-align: center;
+    padding: 8px;
+  }
+  .operator{
+    text-align: center;
+  }
+  /* Estilos para las celdas de datos de la tabla */
+  td {
+    background-color: rgb(255, 255, 255, 0.2);
+    border: 1px solid var(--color0);
+    text-align: left;
+    padding: 8px;
+  }
+  
+
+  
+  /* Estilos para el enlace dentro de la tabla */
+  table a {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  /* Estilos para el subtítulo "basic operators" */
+  #semiTitles {
+    margin-top: 20px;
+  }
